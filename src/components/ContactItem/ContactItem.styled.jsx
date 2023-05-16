@@ -12,12 +12,13 @@ export const ContactText = styled.p`
   margin: 0;
   padding: 0;
   text-align: left;
-  font-size: 14px;
+  font-size: 16px;
 `;
 
 export const DeleteItemBtn = styled.button`
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 500;
+  padding: 5px;
   border: 1px solid #000;
   border-radius: 3px;
   background-color: #ccc;

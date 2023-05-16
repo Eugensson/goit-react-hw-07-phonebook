@@ -7,7 +7,7 @@ export const Form = styled.form`
   border: 2px solid #000;
   border-radius: 3px;
   padding: 15px;
-  width: 250px;
+  width: 400px;
 `;
 
 export const Label = styled.label`
@@ -19,6 +19,9 @@ export const Label = styled.label`
 `;
 
 export const FormBtn = styled.button`
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px;
   border: 1px solid #000;
   border-radius: 3px;
   background-color: #ccc;

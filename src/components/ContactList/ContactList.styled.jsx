@@ -10,7 +10,7 @@ export const ContactListContainer = styled.div`
   font-size: 16px;
   font-weight: 500;
   text-align: center;
-  width: 250px;
+  width: 400px;
 `;
 
 export const ContactsList = styled.ul`

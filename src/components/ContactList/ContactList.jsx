@@ -23,8 +23,8 @@ const ContactList = () => {
     <ContactListContainer>
       {contacts.length !== 0 ? (
         <ContactsList>
-          {getFilteredContacts().map(({ id, name, number }) => (
-            <ContactItem key={id} id={id} name={name} number={number} />
+          {getFilteredContacts().map(({ id, name, phone }) => (
+            <ContactItem key={id} id={id} name={name} phone={phone} />
           ))}
         </ContactsList>
       ) : (
