@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
 
-import { getContacts, getStatusFilter } from '../../redux/selectors';
+import { selectContacts, selectStatusFilter } from '../../redux/selectors';
 import ContactItem from 'components/ContactItem/ContactItem';
 
 import {
@@ -10,8 +10,8 @@ import {
 } from 'components/ContactList/ContactList.styled';
 
 const ContactList = () => {
-  const contacts = useSelector(getContacts);
-  const filter = useSelector(getStatusFilter);
+  const contacts = useSelector(selectContacts);
+  const filter = useSelector(selectStatusFilter);
 
   const getFilteredContacts = () => {
     return contacts.filter(contact =>
